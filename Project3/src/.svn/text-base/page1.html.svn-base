@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Example Page 1</title>
+</head>
+
+<!-- # of Images = 2 -->
+<!-- # of Links: 1 to page2, 1 ouside -->
+
+<body>
+
+<img sr="http://t1.gstatic.com/images?q=tbn:ANd9GcTD57OVotF4h7AASAGTIN29kqTqjz351Z-7D57XxV6LQHnETikMwQ" alt="Some Amazon Chick" />
+
+<img src="http://t0.gstatic.com/images?q=tbn:ANd9GcTneoI1wHpDPwrj3OjQGr91Fdxj30FH_JYy9dmv5jsWDUO2hUDxyA" alt="This is under your bed..." />
+
+<p> Sometimes when writing C++ I get this feelings that if I could only smash my head into the compiler, the compiler would know how I feel, and stop being so crappy.</p>
+<p> But then I realize -- hey, it's not the compiler's fault.</p>
+
+<center><a href="http://eng.utah.edu/~ccurtis/page2.html">Page 2</a>
+<a href="http://www.boost.org">Outside Link to Boost</a>
+</center>
+
+
+</body>
+</html>

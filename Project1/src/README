@@ -1,0 +1,44 @@
+Student Team Group Builder - Revision A
+University of Utah
+by John Wells and James Murdock
+all rights reserved
+This is the first release
+
+Hardware and Software Requirements:
+Must use a CADE Lab2 Machine
+
+Installation instructions:
+Compile the source files by simply running the following command:
+
+make
+
+Run the binary file with a single argument pointing to the 
+student data file.  The format of the input file should be as follows:
+
+<student name> <skill> <XX> <XX> ...
+
+where XX is a digit between 0 and 167 representing the hour in a single week that the
+student is available to meet with other students that may be assigned to his/her group.
+The output of this application will be in html format.  You may run this application
+as follows to view the output in a browser:
+
+./<binaryfile> <datafile> > <htmlfile>
+
+Known Problems:
+- This version does provide a group match that may not necessarily be the best match.  
+- This version runs through its sequence once with a maximum complexity of O(n^2) to 
+  create teams by comparing every user to every other user one time.
+- We did not account for preferred groups in this version, any data containing preferred 
+  group information will break this application.
+ 
+Version history:
+A	-	20120120
+
+Pricing information:
+Free
+
+Contact information:
+John Wells - john.wells@utah.edu
+James Murdock - james.murdock@utah.edu
+
+copyright 2012
